@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MoreForFishing blog</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/jquery-1.10.2.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand">MoreForFishing Blog</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                {{#if user}}
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/user/details">Welcome({{user.email}})</a></li>
+                            <li><a href="/aboutus/aboutus">About Us</a></li>
+                            <li><a href="/article/create">New Article</a></li>
+                            <li><a href="/user/logout">Logout</a></li>
+                        </ul>
+                    </div>
+                {{/if}}
+                {{#unless user}}
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/aboutus/aboutus">About Us</a></li>
+                            <li><a href="/user/register">Register</a></li>
+                            <li><a href="/user/login">Login</a></li>
+                        </ul>
+                    </div>
+                {{/unless}}
+            </div>
+        </div>
+    </header>
+    {{#if error }}
+        <h2>{{error}}</h2>
+    {{/if}}
+    {{{body}}}
+</body>
+<footer>
+    <div class="container modal-footer">
+        <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/%D0%9E%D1%89%D0%B5-%D0%B7%D0%B0-%D1%80%D0%B8%D0%B1%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0-132072826847622/"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
+    </div>
+    <div class="container modal-footer">
+        <p>&copy; 2017 - MoreForFishing - all rights reserved!</p>
+    </div>
+</footer>
+</html>
