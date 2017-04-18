@@ -1,4 +1,4 @@
-const Article = require('mongoose').model('Article');
+    const Article = require('mongoose').model('Article');
 
 function ValidateArticle(articleArgs, req) {
 
@@ -30,7 +30,22 @@ module.exports = {
             return;
         }
 
+        let image = req.files.image;
+
+        if (image) {
+            let filename = image.name;
+
+            image.mv(`./public/images/${filename}`, err => {
+                if (err) {
+                    console.log(err.message);
+                }
+            });
+
+            articleArgs.imagePath = `/images/${image.name}`;
+        }
         articleArgs.author = req.user.id;
+
+
         Article.create(articleArgs).then(article => {
             req.user.articles.push(article.id);
             req.user.save(err => {
@@ -72,10 +87,9 @@ module.exports = {
 
         Article.update({_id: id}, {$set: {title: articleArgs.title, content: articleArgs.content}})
             .then(err => {
-
-
-                res.redirect('/article/details/${id}');
+                res.redirect(`/article/details/${id}`);
 
             });
     }
+
 };
