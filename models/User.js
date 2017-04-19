@@ -19,23 +19,18 @@ userSchema.method ({
        let isSamePasswordHash = inputPasswordHash === this.passwordHash;
 
        return isSamePasswordHash;
-   }
-});
-
-userSchema.method({
+   },
 
     isAuthor: function (article) {
 
         if (!article) {
             return false;
         }
-
-        let isAuthor = article.author = (this.id);
-
-
+        let isAuthor = article.author.equals(this.id);
         return isAuthor;
 
     },
+
 
     isInRole: function (rolename) {
         return Role.findOne({name: rolename}).then(role => {

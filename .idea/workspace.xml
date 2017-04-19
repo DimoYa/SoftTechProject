@@ -2,119 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="280306d9-ed72-4c6b-9064-37a27eeec051" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseAssignIn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash/_copySymbolsIn.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.js" afterPath="$PROJECT_DIR$/config/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/express.js" afterPath="$PROJECT_DIR$/config/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="$PROJECT_DIR$/config/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/article.js" afterPath="$PROJECT_DIR$/controllers/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/home.js" afterPath="$PROJECT_DIR$/controllers/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user.js" afterPath="$PROJECT_DIR$/controllers/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Article.js" afterPath="$PROJECT_DIR$/models/Article.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterPath="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" afterPath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/busboy/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/busboy/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/busboy/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/busboy/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/busboy/package.json" afterPath="$PROJECT_DIR$/node_modules/busboy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/concat-map/package.json" afterPath="$PROJECT_DIR$/node_modules/concat-map/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dicer/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/dicer/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dicer/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/dicer/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dicer/package.json" afterPath="$PROJECT_DIR$/node_modules/dicer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-fileupload/package.json" afterPath="$PROJECT_DIR$/node_modules/express-fileupload/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterPath="$PROJECT_DIR$/node_modules/fs-extra/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" afterPath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inflight/package.json" afterPath="$PROJECT_DIR$/node_modules/inflight/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsonfile/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/jsonfile/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsonfile/package.json" afterPath="$PROJECT_DIR$/node_modules/jsonfile/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/README.md" afterPath="$PROJECT_DIR$/node_modules/lodash/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseAt.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseAt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseIsEqual.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseIsEqual.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseIsEqualDeep.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseIsEqualDeep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseIsMatch.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseIsMatch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseMatchesProperty.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseMatchesProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_basePick.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_basePick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_basePickBy.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_basePickBy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_baseUnset.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseUnset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_cloneMap.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_cloneMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_cloneSet.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_cloneSet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_copySymbols.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_copySymbols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createBind.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createBind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createFlow.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createFlow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createHybrid.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createHybrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createPartial.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createPartial.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createRecurry.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createRecurry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_createWrap.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_createWrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_equalArrays.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_equalArrays.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_equalByTag.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_equalByTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_equalObjects.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_equalObjects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_getSymbols.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_getSymbols.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_getSymbolsIn.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_getSymbolsIn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_hasUnicode.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_hasUnicode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_mergeData.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_mergeData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_nodeUtil.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_nodeUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_unicodeSize.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_unicodeSize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_unicodeToArray.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_unicodeToArray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_unicodeWords.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_unicodeWords.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/_updateWrapDetails.js" afterPath="$PROJECT_DIR$/node_modules/lodash/_updateWrapDetails.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/ary.js" afterPath="$PROJECT_DIR$/node_modules/lodash/ary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/at.js" afterPath="$PROJECT_DIR$/node_modules/lodash/at.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/bind.js" afterPath="$PROJECT_DIR$/node_modules/lodash/bind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/bindKey.js" afterPath="$PROJECT_DIR$/node_modules/lodash/bindKey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/clone.js" afterPath="$PROJECT_DIR$/node_modules/lodash/clone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/cloneDeep.js" afterPath="$PROJECT_DIR$/node_modules/lodash/cloneDeep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/cloneDeepWith.js" afterPath="$PROJECT_DIR$/node_modules/lodash/cloneDeepWith.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/cloneWith.js" afterPath="$PROJECT_DIR$/node_modules/lodash/cloneWith.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/conforms.js" afterPath="$PROJECT_DIR$/node_modules/lodash/conforms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/core.js" afterPath="$PROJECT_DIR$/node_modules/lodash/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/core.min.js" afterPath="$PROJECT_DIR$/node_modules/lodash/core.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/curry.js" afterPath="$PROJECT_DIR$/node_modules/lodash/curry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/curryRight.js" afterPath="$PROJECT_DIR$/node_modules/lodash/curryRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/deburr.js" afterPath="$PROJECT_DIR$/node_modules/lodash/deburr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/flip.js" afterPath="$PROJECT_DIR$/node_modules/lodash/flip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/fp/_mapping.js" afterPath="$PROJECT_DIR$/node_modules/lodash/fp/_mapping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/isEqualWith.js" afterPath="$PROJECT_DIR$/node_modules/lodash/isEqualWith.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/isNative.js" afterPath="$PROJECT_DIR$/node_modules/lodash/isNative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/iteratee.js" afterPath="$PROJECT_DIR$/node_modules/lodash/iteratee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.js" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/matches.js" afterPath="$PROJECT_DIR$/node_modules/lodash/matches.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/matchesProperty.js" afterPath="$PROJECT_DIR$/node_modules/lodash/matchesProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/omit.js" afterPath="$PROJECT_DIR$/node_modules/lodash/omit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/partial.js" afterPath="$PROJECT_DIR$/node_modules/lodash/partial.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/partialRight.js" afterPath="$PROJECT_DIR$/node_modules/lodash/partialRight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/pick.js" afterPath="$PROJECT_DIR$/node_modules/lodash/pick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/rearg.js" afterPath="$PROJECT_DIR$/node_modules/lodash/rearg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/spread.js" afterPath="$PROJECT_DIR$/node_modules/lodash/spread.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/wrapperAt.js" afterPath="$PROJECT_DIR$/node_modules/lodash/wrapperAt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/release-items.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/release-items.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/rimraf/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/rimraf/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/package.json" afterPath="$PROJECT_DIR$/node_modules/rimraf/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/streamifier/package.json" afterPath="$PROJECT_DIR$/node_modules/streamifier/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/streamsearch/package.json" afterPath="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/encryption.js" afterPath="$PROJECT_DIR$/utilities/encryption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/article/details.hbs" afterPath="$PROJECT_DIR$/views/article/details.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/index.hbs" afterPath="$PROJECT_DIR$/views/home/index.hbs" />
     </list>
     <ignored path="MoreForFishing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="259">
+              <caret line="72" column="67" lean-forward="false" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -179,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+            <state relative-caret-position="151">
+              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -292,8 +182,8 @@
         <option value="$PROJECT_DIR$/config/express.js" />
         <option value="$PROJECT_DIR$/models/Article.js" />
         <option value="$PROJECT_DIR$/views/article/details.hbs" />
-        <option value="$PROJECT_DIR$/controllers/article.js" />
         <option value="$PROJECT_DIR$/models/User.js" />
+        <option value="$PROJECT_DIR$/controllers/article.js" />
       </list>
     </option>
   </component>
@@ -659,12 +549,12 @@
       <workItem from="1492550821587" duration="3774000" />
       <workItem from="1492561756538" duration="245000" />
       <workItem from="1492596043042" duration="1666000" />
-      <workItem from="1492598185869" duration="548000" />
+      <workItem from="1492598185869" duration="3272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105293000" />
+    <option name="totallyTimeSpent" value="108017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -675,7 +565,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32283464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32283464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1029,18 +919,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/article.js">
+    <entry file="file://$PROJECT_DIR$/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
+    <entry file="file://$PROJECT_DIR$/controllers/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        <state relative-caret-position="259">
+          <caret line="72" column="67" lean-forward="false" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
           <folding />
         </state>
       </provider>

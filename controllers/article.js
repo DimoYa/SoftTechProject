@@ -70,7 +70,7 @@ module.exports = {
         }
 
         req.user.isInRole('Admin').then(isAdmin => {
-        let isUserAuthorized = isAdmin || req.user.isAuthor('article/details');
+        let isUserAuthorized = isAdmin || req.user.isAuthor(article);
         res.render('article/details', {article:article, isUserAuthorized:isUserAuthorized});
 
         });
