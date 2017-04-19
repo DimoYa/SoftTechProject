@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MoreForFishing.iml" filepath="$PROJECT_DIR$/.idea/MoreForFishing.iml" />
+      <module fileurl="file://D:\JavaScript\SoftUniBlogSkeleton\MoreForFishing\.idea\MoreForFishing.iml" filepath="D:\JavaScript\SoftUniBlogSkeleton\MoreForFishing\.idea\MoreForFishing.iml" />
     </modules>
   </component>
 </project>

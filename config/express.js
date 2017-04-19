@@ -40,3 +40,6 @@ module.exports = (app, config) => {
     // This makes the content in the "public" folder accessible for every user.
     app.use(express.static(path.join(config.rootFolder, 'public')));
 };
+
+
+
