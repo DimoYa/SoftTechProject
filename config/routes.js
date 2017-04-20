@@ -2,6 +2,8 @@ const userController = require('./../controllers/user');
 const homeController = require('./../controllers/home');
 const articleController = require('./../controllers/article');
 const aboutUsController = require('./../controllers/aboutus');
+const JokesController = require('./../controllers/jokes');
+const RecipesController = require('./../controllers/Recipes');
 
 module.exports = (app) => {
     app.get('/', homeController.index);
@@ -22,5 +24,7 @@ module.exports = (app) => {
     app.get('/article/delete/:id', articleController.deleteGet);
     app.post('/article/delete/:id', articleController.deletePost);
     app.get('/AboutUs/AboutUs', aboutUsController.AboutUsGet);
+    app.get('/Jokes/Jokes', JokesController.JokesGet);
+    app.get('/Recipes/Recipes', RecipesController.RecipesGet);
 };
 

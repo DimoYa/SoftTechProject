@@ -19,6 +19,8 @@ module.exports = (config) => {
     require('./../models/User').initialize();
     require('./../models/Article');
     require('./../models/AboutUs');
+    require('./../models/Jokes');
+    require('./../models/Recipes');
 };
 
 

@@ -1,10 +1,18 @@
-const mongoose = require('mongoose');
-const Article = mongoose.model('Article');
+const Article = require('mongoose').model('Article');
 
 module.exports = {
-  index: (req, res) => {
-      Article.find({}).limit(6).populate('author').then(articles => {
-          res.render('home/index', {articles: articles});
-      })
-  }
+
+    index: (req, res) => {
+
+        Article.find({}).sort({_id:-1}).limit(6).populate('author').then(articles => {
+            for(let article of articles){
+                if(article.content.length > 165) {
+                    article.content = article.content.substring(0, 165) + '...';
+                }
+            }
+            res.render('home/index', {
+                articles
+            });
+        });
+    }
 };

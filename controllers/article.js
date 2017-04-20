@@ -109,14 +109,17 @@ module.exports = {
         let articleArgs = req.body;
         let errorMsg = ValidateArticle(articleArgs, req);
 
+
+
         if (errorMsg) {
             res.render('article/edit', {error: errorMsg});
             return;
 
         }
 
-        Article.update({_id: id}, {$set: {title: articleArgs.title, content: articleArgs.content}})
+        Article.update({_id: id}, {$set: {title: articleArgs.title, content: articleArgs.content, image: articleArgs.imagePath}})
             .then(err => {
+
               res.redirect(`/article/details/${id}`);
 
             });
