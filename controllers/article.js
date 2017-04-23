@@ -102,27 +102,51 @@ module.exports = {
 
     },
 
-
-    editPost: (req, res) => {
-
+    editPost: (req, res) =>{
         let id = req.params.id;
+
         let articleArgs = req.body;
-        let errorMsg = ValidateArticle(articleArgs, req);
+
+        let errorMsg = '';
 
 
+        let image = req.files.image;
 
-        if (errorMsg) {
-            res.render('article/edit', {error: errorMsg});
-            return;
-
+        if(image) {
+            articleArgs.imagePath = `/images/${image.name}`;
         }
 
-        Article.update({_id: id}, {$set: {title: articleArgs.title, content: articleArgs.content, image: articleArgs.imagePath}})
-            .then(err => {
+        if(errorMsg){
+            res.render('article/edit', {error: errorMsg})
+        }else {
 
-              res.redirect(`/article/details/${id}`);
+            if (image) {
 
-            });
+                Article.update({_id: id}, {
+                    $set: {
+                        title: articleArgs.title,
+                        content: articleArgs.content,
+                        imagePath: articleArgs.imagePath,
+                        tags: articleArgs.tags
+                    }
+                })
+                    .then(updateStatus => {
+                        res.redirect(`/article/details/${id}`);
+                    });
+            }
+            else {
+                Article.update({_id: id}, {
+                    $set: {
+                        title: articleArgs.title,
+                        content: articleArgs.content,
+                        tags: articleArgs.tags
+                    }
+                })
+                    .then(updateStatus => {
+                        res.redirect(`/article/details/${id}`);
+                    });
+            }
+        }
     },
 
     deleteGet: (req, res) => {
