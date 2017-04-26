@@ -10,7 +10,7 @@ let userSchema = mongoose.Schema(
         articles: [{type: [mongoose.Schema.Types.ObjectId], ref: 'Article' }],
         roles: [{type: [mongoose.Schema.Types.ObjectId], ref: 'Role' }],
         salt: {type: String, required: true},
-        imagePath: {type: String}
+        avatarPath: {type: String},
     }
 );
 

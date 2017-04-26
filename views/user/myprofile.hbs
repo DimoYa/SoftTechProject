@@ -5,20 +5,16 @@
                 <header>
                     <h3>Hello, {{user.fullName}}!</h3>
                 </header>
-                <header>
-                    <h3>{{user.roles}}</h3>
-                </header>
-
-
-                    <img src="{{article.imagePath}}" width="300" alt="User Image">
-
+                {{#if user.avatarPath}}
+                    <img src="{{user.avatarPath}}" width="150" alt="Image">
+                {{/if}}
 
                 <div class="row">
                     {{#each articles}}
                         <div class="col-md-6">
                             <article>
                                 <header>
-                                    <h2>{{this.title}}</h2>
+                                    <h2>{{this.article}}</h2>
                                 </header>
 
                                 <p>{{this.content}}

@@ -29,5 +29,6 @@ module.exports = (app) => {
     app.get('/Jokes/Jokes', JokesController.JokesGet);
     app.get('/Recipes/Recipes', RecipesController.RecipesGet);
     app.get('/User/MyProfile', MyProfileController.MyProfileGet);
+
 };
 
