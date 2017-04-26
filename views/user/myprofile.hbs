@@ -1,0 +1,48 @@
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <user>
+                <header>
+                    <h3>Hello, {{user.fullName}}!</h3>
+                </header>
+                <header>
+                    <h3>{{user.roles}}</h3>
+                </header>
+
+
+                    <img src="{{article.imagePath}}" width="300" alt="User Image">
+
+
+                <div class="row">
+                    {{#each articles}}
+                        <div class="col-md-6">
+                            <article>
+                                <header>
+                                    <h2>{{this.title}}</h2>
+                                </header>
+
+                                <p>{{this.content}}
+                                </p>
+
+                                <small class="author">
+                                    {{this.author.fullName}}
+                                </small>
+
+                                <footer>
+                                    <div class="pull-right">
+                                        <a class="btn btn-default btn-xs" href="/article/details/{{this.id}}">Read more &raquo;</a>
+                                    </div>
+                                </footer>
+                            </article>
+                        </div>
+                    {{/each}}
+                </div><br>
+                <footer>
+                    <div class="pull-right">
+                        <a class="btn btn-default btn-xs" href="/">Back &raquo;</a>
+                    </div>
+                </footer>
+            </user>
+        </div>
+    </div>
+</div>

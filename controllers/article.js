@@ -107,8 +107,7 @@ module.exports = {
 
         let articleArgs = req.body;
 
-        let errorMsg = '';
-
+        let errorMsg = ValidateArticle(articleArgs, req);
 
         let image = req.files.image;
 
@@ -127,7 +126,6 @@ module.exports = {
                         title: articleArgs.title,
                         content: articleArgs.content,
                         imagePath: articleArgs.imagePath,
-                        tags: articleArgs.tags
                     }
                 })
                     .then(updateStatus => {
@@ -139,7 +137,6 @@ module.exports = {
                     $set: {
                         title: articleArgs.title,
                         content: articleArgs.content,
-                        tags: articleArgs.tags
                     }
                 })
                     .then(updateStatus => {
@@ -196,7 +193,25 @@ module.exports = {
                 });
             }
         })
-    }
+    },
 
+
+    myProfileGet: (req, res) => {
+
+        let articleArgs = req.body;
+        let userId = req.user.id;
+
+        Article.find({author:userId}).sort({_id:-1}).populate('author').then(articles => {
+            for(let article of articles){
+                if(article.content.length > 165) {
+                    article.content = article.content.substring(0, 165) + '...';
+                }
+            }
+            res.render('user/MyProfile', {
+                articles
+            });
+        });
+
+    }
 
   };

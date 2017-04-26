@@ -4,6 +4,8 @@ const articleController = require('./../controllers/article');
 const aboutUsController = require('./../controllers/aboutus');
 const JokesController = require('./../controllers/jokes');
 const RecipesController = require('./../controllers/Recipes');
+const MyProfileController = require('./../controllers/MyProfile');
+
 
 module.exports = (app) => {
     app.get('/', homeController.index);
@@ -26,5 +28,6 @@ module.exports = (app) => {
     app.get('/AboutUs/AboutUs', aboutUsController.AboutUsGet);
     app.get('/Jokes/Jokes', JokesController.JokesGet);
     app.get('/Recipes/Recipes', RecipesController.RecipesGet);
+    app.get('/User/MyProfile', MyProfileController.MyProfileGet);
 };
 

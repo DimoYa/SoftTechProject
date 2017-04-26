@@ -21,6 +21,7 @@ module.exports = (config) => {
     require('./../models/AboutUs');
     require('./../models/Jokes');
     require('./../models/Recipes');
+    require('./../models/MyProfile');
 };
 
 

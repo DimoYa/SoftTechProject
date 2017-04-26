@@ -18,6 +18,20 @@ module.exports = {
                 errorMsg = 'Passwords do not match!'
             }
 
+            let image = req.files.image;
+
+            if (image) {
+                let filename = image.name;
+
+                image.mv(`./public/images/${filename}`, err => {
+                    if (err) {
+                        console.log(err.message);
+                    }
+                });
+
+                registerArgs.imagePath = `/images/${image.name}`;
+            }
+
             if (errorMsg) {
                 registerArgs.error = errorMsg;
                 res.render('user/register', registerArgs)
@@ -97,6 +111,7 @@ module.exports = {
             })
         })
     },
+
 
     logout: (req, res) => {
         req.logOut();
