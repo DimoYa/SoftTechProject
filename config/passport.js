@@ -36,6 +36,8 @@ module.exports = () => {
               return done(null, false)
           }
 
+          user.dateFormated=user.date.toLocaleDateString("bg");
+
           return done(null, user);
       })
   })

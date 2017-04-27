@@ -9,8 +9,8 @@ module.exports = {
 
         Article.find({author:userId}).sort({_id:-1}).populate('author').then(articles => {
             for(let article of articles){
-                if(article.content.length > 165) {
-                    article.content = article.content.substring(0, 165) + '...';
+                if(article.content.length > 200) {
+                    article.content = article.content.substring(0, 200) + '...';
                 }
             }
             res.render('user/MyProfile', {

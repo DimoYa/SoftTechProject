@@ -50,7 +50,8 @@ module.exports = {
                         fullName: registerArgs.fullName,
                         salt: salt,
                         roles: roles,
-                        avatarPath: registerArgs.avatarPath
+                        avatarPath: registerArgs.avatarPath,
+                        date: new Date()
                     };
                     User.create(userObject).then(user => {
                         role.users.push(user.id);
